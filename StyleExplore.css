@@ -1,0 +1,137 @@
+body{
+	padding-top: 85px;
+	font-family: "Comfortaa", cursive;
+	background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+
+h1{
+	font-weight: 700;
+	font-size: 3.5rem;
+}
+
+.col-lg-4 .card{
+	margin-bottom:20px;
+}
+
+div .col-lg-2{
+	padding-left: 0;
+}
+
+div .inline-block button{
+	border-radius: 50%;
+	width:2.3rem;
+	height: 2.3rem;
+}
+
+div .inline-block label{
+	border-radius: 50%;
+	width:2.3rem;
+	height: 2.3rem;
+}
+
+.btn-default{
+    border:1px solid #1ed69c;
+    color: black!important;
+    background-color: #ffffff;
+}
+
+a.btn-default:hover{
+	background-color: #a4e8e2!important;
+}
+
+.btn-default.active{
+	background-color: #1cafb7!important;
+}
+
+.md-form.form-sm input {
+	font-size: 1.6rem;
+}
+
+.btn-nav-style{
+	background-image:url(btn-background.png);
+	background-position: center;
+	background-size: cover;
+}
+
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #0ca87f;
+   
+}
+
+.btn-src-color{
+	background-color: #0ca87f;
+}
+
+
+
+/*..................................Navbar ...........................................*/
+
+.navbar {
+
+	background-image:url(^30A1B1633351255FB155A15ADE9C118AA9B4D4E748AD206CD1^pimgpsh_fullsize_distr.png);
+	background-position: center;
+	background-size: cover;
+
+}
+
+.scrolling-navbar {
+    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+
+.top-nav-collapse {
+    background-color: #01d96f;
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #01d96f;
+
+
+   }
+}
+
+
+.navbar.navbar-dark form input[type=text]:focus:not([readonly]), .navbar.navbar-light form input[type=text]:focus:not([readonly]) {
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.navbar.navbar-dark form input[type=text] {
+    width: 270px;
+    border-bottom: 1px solid #fff;
+}
+
+/*...............................Pagination..................................*/
+
+
+.pagination .page-link{
+	color:#1fdb99;;
+}
+
+/*............................Footer........................................*/
+
+.footer-style1{
+
+    background-image: linear-gradient(-225deg, #008242 0%, #01d96f 48%, #388e3c 100%);
+
+}
+
+
+footer.page-footer {
+    background-color: #2b3f66;
+    margin-top: 0;
+}
+
+
+.card-header,
+.card-footer{
+	background-image: linear-gradient(to right, #1fdd98 0%, #1ba7bc 100%);
+}
